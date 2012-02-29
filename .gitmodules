@@ -1,3 +1,6 @@
 [submodule "chef-cookbooks/opscode"]
 	path = chef-cookbooks/opscode
 	url = git://github.com/opscode/cookbooks.git
+[submodule "application"]
+	path = application
+	url = https://github.com/zendframework/ZendSkeletonApplication.git

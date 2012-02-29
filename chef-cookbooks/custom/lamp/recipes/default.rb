@@ -3,6 +3,7 @@ require_recipe "mysql::server"
 require_recipe "php"
 require_recipe "apache2"
 require_recipe "apache2::mod_php5"
+require_recipe "apache2::mod_rewrite"
 
 execute "disable-default-site" do
     command "sudo a2dissite default"
